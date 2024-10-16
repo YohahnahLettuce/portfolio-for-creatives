@@ -276,11 +276,18 @@ a:active {
   color: var(--hyperlink-alternate-color);
 }
 
+.custom-navigation {
+  background: transparent;
+  border-radius: 1rem;
+  padding: 1rem 3rem;
+  font-style: normal;
+}
+
 .custom-navigation:hover {
-  background: url(assets/temp/heading-background.svg);
-  background-size: 15%;
-  background-repeat: no-repeat;
-  background-position: center center;
+  background: white;
+  border-radius: 1rem;
+  padding: 1rem 3rem;
+  font-style: italic;
 }
 
 .heart {
@@ -337,8 +344,8 @@ a:active {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  align-items: center;
   padding: 1rem;
-  align-items: flex-start;
   background: var(--accent-color);
 }
 
