@@ -15,7 +15,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Kalam:wght@300;400;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Borel&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Staatliches&display=swap")
-/*
+  /*
 
 Imported stylesheets. Remove the ones you do not want to use.
 
@@ -26,10 +26,8 @@ Imported stylesheets. Remove the ones you do not want to use.
 ██ ██      ██ ██       ██████  ██   ██    ██         ██████ ███████ ███████ 
 
 */
-
-/* TODO: Delete any stylesheets that you do not want to use. */
-
-@import url("make-something-fly.css");
+  /* TODO: Delete any stylesheets that you do not want to use. */ @import
+  url("make-something-fly.css");
 @import url("animated-gradient.css");
 @import url("text-stroke.css");
 @import url("stroke-shadow.css");
@@ -350,6 +348,7 @@ a:active {
 
 .logo {
   width: 5rem;
+  z-index: 10;
   /* TODO: Adjust the width of the logo on mobile devices here. */
 }
 
@@ -465,7 +464,6 @@ a:active {
   padding: 1rem;
   flex: 1;
   border-radius: 5rem;
-  
 }
 
 .about-item-1 {
@@ -523,7 +521,6 @@ a:active {
   grid-row: 3 / 4;
 }
 
-
 .awards-list {
   margin-bottom: 2rem;
 }
@@ -569,10 +566,8 @@ a:active {
 .project-image-container {
   display: flex;
   align-items: center;
-  justify-content: center; 
+  justify-content: center;
   flex-direction: column;
-  
-  
 }
 
 .project-image {
@@ -581,9 +576,10 @@ a:active {
   align-items: center;
   justify-content: center;
   margin-bottom: 1.5rem;
-  border-radius: 50%;
 }
-
+.rounded-corners {
+  border-radius: 5rem;
+}
 .project-text-with-image {
   display: flex;
   flex-direction: column;
@@ -603,7 +599,6 @@ a:active {
 .project-image-right {
   width: 70%;
   padding: 3rem;
-
 }
 
 .text-section {
@@ -613,7 +608,7 @@ a:active {
 .project-text {
   width: 100%;
   font-size: 3.25rem;
-  padding: 3rem; 
+  padding: 3rem;
 }
 
 /* Main Project Image Area */
