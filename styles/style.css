@@ -279,14 +279,12 @@ a:active {
 
 .custom-navigation {
   background: transparent;
-  border-radius: 1rem;
   padding: 1rem 3rem;
   font-style: normal;
 }
 
 .custom-navigation:hover {
   background: white;
-  border-radius: 1rem;
   padding: 1rem 3rem;
   font-style: italic;
 }
