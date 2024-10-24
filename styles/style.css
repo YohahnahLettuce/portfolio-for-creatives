@@ -506,6 +506,12 @@ a:active {
   justify-items: center;
 }
 
+.footer-item-1,
+.footer-item-2,
+.footer-item-3 {
+  /* width: 80%; */
+  border: 2px solid red;
+}
 .footer-item-1 {
   grid-column: 1 / 2;
   grid-row: 1 / 2;
@@ -780,7 +786,7 @@ a:active {
 
   .global-footer {
     padding: 4rem 4rem 0 4rem;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 2fr 2fr 1fr;
   }
 
   .about-item-1 {
