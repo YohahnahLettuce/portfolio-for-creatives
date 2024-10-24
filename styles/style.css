@@ -14,6 +14,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Patrick+Hand+SC&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Kalam:wght@300;400;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Borel&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Staatliches&display=swap")
 /*
 
 Imported stylesheets. Remove the ones you do not want to use.
@@ -80,30 +81,30 @@ html {
 
 :root {
   --body-typeface: "bitter", serif;
-  --heading-typeface: "Patrick Hand SC", cursive;
-  --project-title-typeface: "kalam", sans-serif;
+  --heading-typeface: "bebas neue", sans-serif;
+  --project-title-typeface: "bebas neue", sans-serif;
   --hero-last-name: "Borel", cursive;
   --background-color: white;
-  --background-color-about: rgb(248, 233, 201);
+  --background-color-about: rgb(255, 255, 255);
   --background-color-footer: rgb(255, 165, 40);
   --alt-background-color: #000000;
   --background-color-holding-page: rgba(82, 0, 255, 0.6);
-  --h1-color: rgb(54, 39, 7);
+  --h1-color: #360000;
   --h2-color: #000000;
   --h3-color: #000000;
-  --h4-color: rgb(54, 0, 0);
+  --h4-color: #360000;
   --h5-color: #000000;
   --h6-color: #000000;
   --primary-text-color: #222;
   --holding-page-title-color: #ebedf0;
-  --accent-color: rgb(255, 165, 40);
-  --overlay-color: #000000;
-  --overlay-title-color: #ffffff;
+  --accent-color: #ffa528;
+  --overlay-color: #ffa528;
+  --overlay-title-color: #360000;
   --overlay-description-color: #ffffff;
   --hyperlink-color: #000000;
   --hyperlink-alternate-color: orangered;
-  --hover-color: #111;
-  --visited-color: #000000;
+  --hover-color: rgb(255, 165, 40);
+  --visited-color: rgb(0, 0, 0);
   --project-title-color: #000000;
   --project-sidebar-background-color: transparent;
   --project-sidebar-text-color: black;
@@ -445,7 +446,7 @@ a:active {
 
 .work-page-grid-item:hover .overlay {
   visibility: visible;
-  opacity: 0.8;
+  opacity: 0.9;
 }
 
 /* 
@@ -465,6 +466,8 @@ a:active {
   background: var(--background-color-about);
   padding: 1rem;
   flex: 1;
+  border-radius: 5rem;
+  
 }
 
 .about-item-1 {
@@ -501,9 +504,10 @@ a:active {
   display: grid;
   grid-template-columns: 1fr;
   grid-gap: 3rem;
-  min-height: 100vh;
+  min-height: 35vh;
   background: var(--background-color-footer);
   padding: 1rem;
+  justify-items: center;
 }
 
 .footer-item-1 {
@@ -521,10 +525,6 @@ a:active {
   grid-row: 3 / 4;
 }
 
-.footer-item-4 {
-  grid-column: 1 / 2;
-  grid-row: 4 / 5;
-}
 
 .awards-list {
   margin-bottom: 2rem;
@@ -571,8 +571,10 @@ a:active {
 .project-image-container {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: center; 
   flex-direction: column;
+  
+  
 }
 
 .project-image {
@@ -581,6 +583,7 @@ a:active {
   align-items: center;
   justify-content: center;
   margin-bottom: 1.5rem;
+  border-radius: 50%;
 }
 
 .project-text-with-image {
@@ -602,6 +605,7 @@ a:active {
 .project-image-right {
   width: 70%;
   padding: 3rem;
+
 }
 
 .text-section {
@@ -611,7 +615,7 @@ a:active {
 .project-text {
   width: 100%;
   font-size: 3.25rem;
-  padding: 3rem;
+  padding: 3rem; 
 }
 
 /* Main Project Image Area */
@@ -731,7 +735,7 @@ a:active {
   }
 
   h1 {
-    font-size: 4.275rem;
+    font-size: 8.275rem;
   }
 
   h2 {
@@ -749,7 +753,7 @@ a:active {
     background: white;
     border-radius: 50%;
     margin-bottom: -8rem;
-    border: 1px solid black;
+    border: 1px solid rgb(255, 236, 236);
     /* TODO: Adjust the width of the logo on large devices here. */
   }
 
@@ -833,7 +837,7 @@ a:active {
   /* Padding around work grid and project page */
   .portfolio,
   .project-wrapper {
-    padding: 0.5rem;
+    padding: 3rem;
   }
 
   /* Project Page Flex Direction on Large Devices */
