@@ -514,7 +514,6 @@ a:active {
 .footer-item-2,
 .footer-item-3 {
   /* width: 80%; */
-  border: 2px solid red;
 }
 .footer-item-1 {
   grid-column: 1 / 2;
