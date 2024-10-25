@@ -88,19 +88,19 @@ html {
   --background-color-footer: rgb(255, 165, 40);
   --alt-background-color: #000000;
   --background-color-holding-page: rgba(82, 0, 255, 0.6);
-  --h1-color: #ff2222;
-  --h2-color: #000000;
-  --h3-color: #000000;
+  --h1-color: #360000;
+  --h2-color: #360000;
+  --h3-color: #360000;
   --h4-color: #360000;
   --h5-color: #000000;
   --h6-color: #000000;
-  --primary-text-color: #222;
+  --primary-text-color: #360000;
   --holding-page-title-color: #ebedf0;
   --accent-color: #ffa528;
   --overlay-color: #ffa528;
   --overlay-title-color: #360000;
-  --overlay-description-color: #ffffff;
-  --hyperlink-color: #000000;
+  --overlay-description-color: #360000;
+  --hyperlink-color: #36000;
   --hyperlink-alternate-color: orangered;
   --hover-color: rgb(255, 165, 40);
   --visited-color: rgb(0, 0, 0);
@@ -157,7 +157,7 @@ h1 {
   font-size: 2rem;
   font-family: var(--heading-typeface);
   margin-bottom: 1rem;
-  color: var(--b);
+  color: var(--h1-color);
 }
 
 h2 {
@@ -280,6 +280,9 @@ a:active {
   background: transparent;
   padding: 1rem 3rem;
   font-style: normal;
+  
+  ;
+  
 }
 
 .custom-navigation:hover {
