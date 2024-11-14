@@ -88,7 +88,7 @@ html {
   --background-color-about: rgb(255, 255, 255);
   --background-color-footer: rgb(255, 165, 40);
   --alt-background-color: #000000;
-  --background-color-holding-page: rgba(82, 0, 255, 0.6);
+  --background-color-holding-page: #ffa528;
   --h1-color: #360000;
   --h2-color: #360000;
   --h3-color: #360000;
@@ -96,7 +96,7 @@ html {
   --h5-color: #000000;
   --h6-color: #000000;
   --primary-text-color: #360000;
-  --holding-page-title-color: #ebedf0;
+  --holding-page-title-color: #ffa528;
   --accent-color: #ffa528;
   --overlay-color: #ffa528;
   --overlay-title-color: #360000;
@@ -667,11 +667,9 @@ a:active {
   width: 100%;
   min-height: 100vh;
   /* TODO: Delete the following if you do not want a grainy gradient background on index.html. Be careful not to delete the closing } */
-  background: linear-gradient(
-      0deg,
-      #ffa528,
+  background: 
+      color:rgb(255, 165, 40);
  
-    ),
     url(/assets/temp/noise.svg);
   /* For more on grainy gradients see https://grainy-gradients.vercel.app/ */
 }
