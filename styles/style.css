@@ -613,13 +613,13 @@ a:active {
 .project-text-with-image {
   display: flex;
   flex-direction: column;
-  border: 2px solid goldenrod;
+  
 }
 
 .project-text-with-image-reversed {
   display: flex;
   flex-direction: column;
-  border: 2px solid goldenrod;
+  
 }
 
 .project-info {
