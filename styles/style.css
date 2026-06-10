@@ -530,6 +530,7 @@ a:active {
   background: var(--background-color-footer);
   padding: 1rem;
   justify-items: center;
+  text-align: center;
 }
 
 .footer-item-1,
