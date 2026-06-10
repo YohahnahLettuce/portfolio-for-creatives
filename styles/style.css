@@ -453,6 +453,7 @@ a:active {
   display: flex;
   justify-content: center;
   align-items: center;
+  text-align: center;
   flex-direction: column;
   padding: 1em;
   background-color: var(--overlay-color);
