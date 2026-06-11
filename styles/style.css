@@ -524,13 +524,17 @@ a:active {
 */
 
 .global-footer {
-  display: grid;
-  grid-template-columns: 1fr;
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  justify-content: center;
+
+  text-align: center;
+
   min-height: 5vh;
   background: var(--background-color-footer);
   padding: 1rem;
-  justify-items: center;
-  text-align: center;
 }
 
 .footer-item-1,
