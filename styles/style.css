@@ -457,10 +457,8 @@ a:active {
 
   width: 100%;
   height: 100%;
-.work-page-grid-item:hover .overlay {
   opacity: 0;
   visibility: invisible;
-}
   display: flex;
   justify-content: center;
   align-items: center;
