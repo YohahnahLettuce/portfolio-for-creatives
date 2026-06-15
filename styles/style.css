@@ -442,7 +442,7 @@ a:active {
   height: 100%;
   object-fit: cover;
   display: block;
-  border-radius: 4rem;
+  border-radius: 2rem;
 }
 .work-page-grid-item {
   position: relative;
