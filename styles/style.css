@@ -872,7 +872,7 @@ a:active {
   /* Padding around work grid and project page */
   .portfolio,
   .project-wrapper {
-    padding: 3rem;
+    padding: 1rem;
   }
 
   /* Project Page Flex Direction on Large Devices */
