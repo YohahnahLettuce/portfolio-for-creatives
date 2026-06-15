@@ -115,7 +115,7 @@ html {
   --linear-gradient-color-2: #8d0b93;
   --linear-gradient-color-3: #321575;
   --stroke-shadow-color: rgba(0, 0, 0, 0.4);
-  --work-padding-and-grid-gap: 3rem;
+  --work-padding-and-grid-gap: 1rem;
 }
 
 body {
