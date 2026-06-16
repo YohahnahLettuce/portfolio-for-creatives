@@ -471,7 +471,30 @@ a:active {
   border-radius: 5rem;
 
   transition: opacity 0.3s ease;
+/* Project side-by-side image row */
+.project-image-row {
+  display: flex;
+  gap: 1rem;
+  width: 100%;
+}
 
+.project-image-half {
+  flex: 1;
+}
+
+.project-image-half img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 2rem; /* optional: matches your existing style */
+}
+
+/* Mobile stacking */
+@media (max-width: 768px) {
+  .project-image-row {
+    flex-direction: column;
+  }
+}
   
 }
 
